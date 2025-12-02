@@ -1,0 +1,44 @@
+.box{
+    width: 700px;
+    border: 2px solid black;
+    margin: 200px;
+    background-color: whitesmoke;
+    align-items: center;
+
+
+}
+.Header{
+    border: 1px ;
+    background-color: rgb(173, 175, 178);
+    width: 680px;
+    margin-left: 10px;
+    height: 35px;
+    text-align: center;
+
+}
+.red{
+    color: red;
+}
+.menu1 a {
+    color: rgb(39, 39, 57);
+    background-color: rgb(13, 108, 218);
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 3px;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.menu2 a {
+     background-color: rgb(17, 205, 89);
+    color: rgb(18, 10, 10);
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 3px; 
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}

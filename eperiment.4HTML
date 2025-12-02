@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotal room booking form</title>
+</head>
+
+<body>
+    <div>
+        <center>
+            <form action="./responce.html" name="Hotal Booking Form" target="_blank" method="get">
+                <h1> Hotel Room Booking Form </h1>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                <br><br>
+                <label for="Email"> Email:</label>
+                <input type="Email" id="email" name="email" placeholder="Enter your Email" required>
+                <br><br>
+                <label for="phone number"> Phone:</label>
+                <input type="tel" id="phone number" name="phone number" placeholder="Enter Your Name" required>
+                <br><br>
+                <label for="Date">Check-in Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+                <label for="Date">Check-out Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+                <label for="sel">Room Type:</label>
+<select name="select" id="select room" name="Room Type" required>
+                    <option>Room Type</option>
+                    <option value="Single Room">Single Room</option>
+                    <option value="Double Room">Double Room</option>
+                    <option value="Triple Room">Triple Room</option>
+                </select>
+                <br><br>
+                <label for="number">Numbers of Guests:</label>
+                <input type="number" id="number of guests" name="number of guests" min="1" max="7">
+                <br><br>
+                <label for="requests">Special Requests:</label>
+                <br>
+                <textarea name="requests" id="requests" rows="10" cols="80"></textarea>
+                <br><br>
+                <button>Book Now </button>
+                <button>Reset Form</button>
+            </form>
+        </center>
+</body>
+</html>
